@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  background-image: url("/assets/grass.jpg");
+  background-image: url("../assets/grass.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
