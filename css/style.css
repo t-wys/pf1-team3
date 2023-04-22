@@ -81,14 +81,12 @@ nav ul li a:hover {
     height: 300px;
     width: 100%;
     overflow: hidden;
+    background-image: url('../assets/bird.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: bottom;
 }
 
-.slider img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
 
 /* Main */
 main {
