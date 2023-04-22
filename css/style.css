@@ -36,6 +36,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  background-color: #ffffff;
 }
 
 /* Brand */
@@ -62,7 +63,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: #333333;
   padding: 10px 15px;
   font-size: 18px;
   display: block;
@@ -76,6 +77,13 @@ nav ul li a:hover {
 }
 
 /* Slider */
+
+.slider {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .slider img {
   display: block;
   width: 100%;
