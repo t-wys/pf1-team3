@@ -1,14 +1,21 @@
-# projektZajecia1
+# pf1-team3
 
-## Ten projekt jest naszym cwiczeniem z gita nr 1
+## Description
 
-Wykorzystane technologie:
+This is a simple static website. 
+
+### Purpose
+
+Team collaboration exercise.
+
+## Tech Stack
+
 * HTML5
 * CSS3
 
+## Contributors
 
-```javascript
-function testowaFunkcja() {
- console.log("Witaj gicie!");
-}
-```
+- Pati
+- Tomek P
+- Piotrek D
+- Tomek W
