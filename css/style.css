@@ -73,7 +73,6 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 3px solid #3da249cd;
   margin-bottom: -3px;
-
 }
 
 /* Slider */
@@ -105,10 +104,10 @@ article {
 
 /* Aside */
 aside {
-    width: 30%;
-    padding: 20px;
-    background-color: #3da249cd;
-    color: #fff;
+  width: 30%;
+  padding: 20px;
+  background-color: #3da249cd;
+  color: #fff;
 }
 
 article img {
@@ -152,6 +151,7 @@ article img {
   margin: 0 10px 5px 0;
   border: 5px solid rgba(233, 200, 13, 0.937);
   border-radius: 8px;
+  width: 50%; 
 }
 
 /* Links */
@@ -167,7 +167,7 @@ article img {
 }
 
 .links ul li a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* Footer */
