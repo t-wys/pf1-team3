@@ -156,13 +156,24 @@ article img{
 /* Footer */
 
 footer {
-  background-color: lightgray;
-  border-top: 1px solid black;
-  text-align: center;
-  padding: 25px 0;
+	background-color: lightgray;
+	border-top: 1px solid black;
+	text-align: center;
+	padding: 25px 0;
 }
 
 footer p {
-  margin: 0;
-  text-shadow: 2px 2px darkgray;
+	margin: 0;
+	text-shadow: 2px 2px darkgray;
+}
+footer a {
+	margin: 5px;
+}
+.icon {
+	color: black;
+	font-size: 22px;
+}
+
+.social-icons{
+    margin: 3px;
 }
