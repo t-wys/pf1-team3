@@ -13,7 +13,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: "Lato", sans-serif;
-  background-image: url("/assets/grass.jpg");
+  background-image: url("../assets/grass.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -70,8 +70,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-bottom: 3px solid rgba(233, 200, 13, 0.937);
+  border-bottom: 3px solid #3da249cd;
   margin-bottom: -3px;
+
 }
 
 /* Slider */
@@ -91,14 +92,15 @@ main {
 article {
   width: 70%;
   padding: 30px;
+  background: #f2f2f2;
 }
 
 /* Aside */
 aside {
-  width: 30%;
-  padding: 20px;
-  background-color: lightgray;
-  border-left: 1px dashed black;
+    width: 30%;
+    padding: 20px;
+    background-color: #3da249cd;
+    color: #fff;
 }
 
 article img {
@@ -154,6 +156,10 @@ article img {
 
 .links ul li {
   margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #ffffff;
 }
 
 /* Footer */
