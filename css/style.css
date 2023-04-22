@@ -36,6 +36,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  background-color: #ffffff;
 }
 
 /* Brand */
@@ -62,7 +63,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: #333333;
   padding: 10px 15px;
   font-size: 18px;
   display: block;
@@ -72,10 +73,16 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 3px solid #3da249cd;
   margin-bottom: -3px;
-
 }
 
 /* Slider */
+
+.slider {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .slider img {
   display: block;
   width: 100%;
@@ -97,10 +104,10 @@ article {
 
 /* Aside */
 aside {
-    width: 30%;
-    padding: 20px;
-    background-color: #3da249cd;
-    color: #fff;
+  width: 30%;
+  padding: 20px;
+  background-color: #3da249cd;
+  color: #fff;
 }
 
 article img {
@@ -144,6 +151,7 @@ article img {
   margin: 0 10px 5px 0;
   border: 5px solid rgba(233, 200, 13, 0.937);
   border-radius: 8px;
+  width: 50%; 
 }
 
 /* Links */
@@ -159,7 +167,7 @@ article img {
 }
 
 .links ul li a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* Footer */
