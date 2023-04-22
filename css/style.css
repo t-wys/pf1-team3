@@ -13,7 +13,6 @@ body{
     margin: 0;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
-    background-color: #f2f2f2;
 }
 
 img {
@@ -68,8 +67,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  border-bottom: 3px solid rgba(233, 200, 13, 0.937);
+  border-bottom: 3px solid #3da249cd;
   margin-bottom: -3px;
+
 }
 
 /* Slider */
@@ -89,14 +89,15 @@ main {
 article {
   width: 70%;
   padding: 30px;
+  background: #f2f2f2;
 }
 
 /* Aside */
 aside {
     width: 30%;
     padding: 20px;
-    background-color: lightgray;
-    border-left: 1px dashed black; 
+    background-color: #3da249cd;
+    color: #fff;
 }
 
 article img{
@@ -138,7 +139,6 @@ article img{
   float: left;
   /* padding: 0 10px 5px 0; -alternatywne rozw w przypadku braku borderu */
   margin: 0 10px 5px 0;
-  border: 5px solid red;
 }
 
 /* Links */
@@ -151,6 +151,10 @@ article img{
 
 .links ul li {
   margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #ffffff;
 }
 
 /* Footer */
